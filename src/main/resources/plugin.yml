@@ -1,0 +1,11 @@
+name: Quest
+version: '1.0.0'
+main: com.coffeetory.quest.QuestMain
+api-version: '1.21'
+authors: [ CoffeeTory ]
+description: 커피토리의 라이브러리 플러그인
+website: "Discord: coffeetory"
+
+commands:
+  퀘스트:
+    description: "퀘스트 명령어"
