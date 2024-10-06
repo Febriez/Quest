@@ -4,14 +4,18 @@ import org.bukkit.plugin.java.JavaPlugin;
 
 public final class QuestMain extends JavaPlugin {
 
+    private static QuestMain instance;
+
     @Override
     public void onEnable() {
-        // Plugin startup logic
-
+        instance = this;
     }
 
     @Override
     public void onDisable() {
-        // Plugin shutdown logic
+    }
+
+    public static QuestMain getInstance() {
+        return instance;
     }
 }

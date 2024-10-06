@@ -1,4 +1,4 @@
-package com.coffeetory.quest.manager;
+package com.coffeetory.quest.quests;
 
 public enum QuestType {
 
